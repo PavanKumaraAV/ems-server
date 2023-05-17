@@ -30,3 +30,4 @@ const upload = multer({
 
 // EXPORT FILE
 module.exports = upload
+

@@ -32,6 +32,10 @@ const userSchema = new mongoose.Schema({
         maxlength: 10
 
     },
+    gender : {
+        type: String,
+        required:true,
+    },
     status: {
         type: String,
         required: true
